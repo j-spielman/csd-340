@@ -13,12 +13,12 @@ h1,h2,h3{
     color: #fff;
     border: 1px solid black;
     padding: 10px;    
-
 }
+
 a{
     color: #453674;
     text-decoration: none;
-
+    font-weight: normal;
 }
 a:hover{
     background-color: #D6A800;
