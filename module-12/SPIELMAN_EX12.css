@@ -1,0 +1,159 @@
+/* colors
+    charcoal: #264653
+    persian green: #2A9D8F
+    Orange Yellow Crayola: #E9C46A
+    Sandy Brown: #F4A261
+    Burnt Sienna: #E76F51
+*/
+/*
+    Fonts
+    Lora: Regular 400, Medium 500, Semi-bold 600, Semi-bold 600 italic
+    Noto Sans KR: Light 300, Regular 400
+
+    font-family: 'Lora', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+*/
+body{
+    margin: 0;
+    font-family: 'Noto Sans KR', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    background-color: #2A9D8F;
+    font-weight: 400;
+}
+
+header{
+    background-color: #264653;
+    color: #E9C46A;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1{
+ 
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #E9C46A;
+    font-family: 'Lora',serif;
+    font-weight: Semi-bold 600 italic;
+}
+h2{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #264653;
+    font-family: 'Lora',serif;
+    font-weight: Semi-bold 600;
+}
+
+footer p{
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+th{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+td{
+    padding: 10px;
+}
+
+
+#container{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+footer{
+    background-color: #4f3674;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.hobbies{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;    
+    border: solid 4px#264653;
+    background-color: #F4A261;
+}
+
+.experience{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;    
+    border: solid 4px#264653;
+    background-color: #E76F51;
+}
+.contact{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;    
+    border: solid 4px#264653;
+    text-align: center;
+    background-color: #E9C46A;
+}
+
+.card{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.experience:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2em;
+    color: #4f3674;
+    font-weight: 400;    
+}
+
+.card-content{
+    padding: 2px 16px;    
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+button{
+    margin-bottom: 10px;
+}
